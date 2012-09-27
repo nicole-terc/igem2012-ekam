@@ -1,0 +1,147 @@
+/* 
+    Document   : style
+    Created on : 25/07/2012, 12:09:17 AM
+    Author     : GGIL
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+form label {
+  display: inline-block;
+  width: 186px;
+}
+
+div#form_container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+div#form_container2 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+div#logo {
+    width: 160px;
+    margin:0 auto;
+}
+
+div#centered_container {
+    margin: 0 auto;
+    padding: 15px;
+    border: 8px solid rgba(103, 180, 59, 0.3);
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+body {
+  font-family: Comic Sans MS, cursive, sans-serif;
+    
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#99CC99));
+  
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #FFFFFF, #99CC99);
+  
+  /* Firefox 3.6+ */ 
+  background: -moz-radial-gradient(circle, #FFFFFF, #99CC99);
+  
+  /* IE 10 */ 
+  background: -ms-radial-gradient(circle, #FFFFFF, #99CC99);
+  
+  /* Opera cannot do radial gradients yet */
+}
+
+img#gear_trans {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22%;
+}
+
+img#gear_trans_small {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15%;
+}
+
+img#pet {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    width: 10%;
+}
+
+input {
+    border: 2px solid rgba(103, 180, 59, 0.3);
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    line-height: 1.5em;
+}
+
+input#submit {
+    line-height: 1.25em;
+    height: 2.5em;
+    width:100px;
+}
+
+div#purple_button {
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    background: url('button.png');
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 204px;
+}
+
+div#purple_button a {
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    font-size: 120%;
+    text-align: center;
+    color: #DDD;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 0.6em #000;
+}
+
+p {
+    margin: 6px 0;
+}
+
+table{
+    font-size: 8pt;
+	table-layout: fixed;
+}
+
+table td div {
+	max-width: 56px;
+}
+
+table td div p {
+    text-align: center;
+	word-wrap: break-word;
+}
+
+table th {
+    min-width: 45px;
+    border-right: 2px groove green;
+}
+
+table th:first-child {
+    border-left: 2px groove green;
+}
+
+table tr:first-child {
+    background-color: #99CC99;
+}
+
+

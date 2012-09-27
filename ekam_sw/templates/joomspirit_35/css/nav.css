@@ -1,0 +1,178 @@
+/**	TOP MENU		**/
+
+#top_menu .moduletable {
+margin:0;
+}
+#top_menu li {
+margin:0 8px 0 0;
+padding:0;
+float:left;
+position:relative;
+list-style : none;
+height:22px;
+background: transparent url(../images/header/bg-top-menu-right-black.jpg) 100% -40px no-repeat;
+}
+
+#top_menu li.active, #top_menu li:hover {
+background: transparent url(../images/header/bg-top-menu-right-black.jpg) 100% 0 no-repeat;
+}
+
+#top_menu li a, #top_menu li span.separator {
+display:block;
+float : none !important;
+float : left;
+position:relative;
+z-index:1000;
+text-decoration:none;
+/**	change	**/
+text-transform: none;
+font-weight:normal;
+font-size:90%;
+text-align:left;
+height:19px;
+padding: 3px 15px 0px 15px;
+color:#ccc;
+background: transparent url(../images/header/bg-top-menu-left-black.jpg) 0 -40px no-repeat;
+}
+
+#top_menu li.active a, #top_menu li:hover a {
+background: transparent url(../images/header/bg-top-menu-left-black.jpg) 0 0 no-repeat;
+color: #ddd ;
+text-decoration: none;
+}
+
+
+/* 
+*	submenu (left or right)
+*/
+.submenu ul {
+margin:0px 0 0px 0;
+padding:0;
+}
+.submenu li {
+display:block;
+border:none;
+margin:0 0 7px 0;
+}
+.submenu li a, .submenu li span.separator {
+display:block;
+background: transparent url(../images/white-10.png) top left repeat;
+color:#ccc;
+font-size:95%;
+text-transform: uppercase;
+text-shadow: none;
+font-weight: normal;
+line-height:12px;
+margin:0;
+padding: 7px 7px 7px 7px;
+text-decoration:none;
+}
+
+.submenu li a:hover, .submenu li.active a, .submenu li span.separator:hover, .submenu li.active span.separator {
+background: transparent url(../images/black-25.png) top left repeat;
+color:#fff;
+}
+.submenu a:hover {
+text-decoration:none;
+}
+.submenu ul ul {
+margin: 0;
+}
+.submenu li li {
+margin: 0px;
+}
+
+.submenu li li a, .submenu li li span.separator,
+.submenu li.active li a, .submenu li.active li span.separator {
+font-size:100%;
+text-transform: none;
+font-weight: normal;
+color:#aaa;
+line-height:100%;
+background: transparent url(../images/puce-link.png) 5px 11px no-repeat;
+padding-left:16px;
+}
+.submenu li li a:hover li a, .submenu li li.active li a {
+color:#aaa;
+}
+.submenu li li a:hover, .submenu li.active li.active a, .submenu li li span.separator:hover {
+color:#fff;
+background: transparent url(../images/puce-link.png) 5px 11px no-repeat;
+}
+.submenu ul ul ul {
+margin: 0 0 0 20px;
+}
+.submenu li li li a {
+font-size:95%;
+text-transform: none;
+font-weight: normal;
+color:#aaa;
+background-image:none;
+text-indent:0;
+border:none;
+}
+
+.submenu li li li a:hover, .submenu ul li.active li.active li.active a {
+color:#fff;
+background-image: none;
+border:none;
+}
+.submenu li li a:hover li a, .submenu li.active li.active li a, .submenu li li span.separator:hover li a, 
+.submenu li li a:hover li span.separator, .submenu li.active li.active li span.separator, .submenu li li span.separator:hover li span.separator {
+color: #aaa;
+background-image: none;
+border:none;
+}
+
+#footer .submenu li a, #footer .submenu li span.separator {
+background: transparent url(../images/white-10.png) top left repeat;
+color : #666;
+}
+
+#footer .submenu li a:hover, #footer .submenu li#current a, #footer .submenu li.active a,
+#footer .submenu li span.separator:hover, #footer .submenu li#current span.separator, #footer .submenu li.active span.separator {
+background: transparent url(../images/black-10.png) top left repeat;
+color : #eee;
+}
+
+
+/**	BOTTOM MENU		**/
+#bottom_menu {
+display:block;
+list-style: none;
+text-align:center;
+/**	change	**/
+width:100%;
+margin: 12px auto 0 auto;
+padding:6px 0 30px 0;
+clear:both;
+}
+
+#bottom_menu li{
+margin:0;
+padding:0;
+display:inline;
+list-style : none;
+/**	change	**/
+}
+#bottom_menu li a, #bottom_menu li span.separator {
+text-decoration:none;
+/**	change	**/
+text-transform: none;
+font-weight:normal;
+color:#666;
+font-size:90%;
+text-align:left;
+padding: 0px 0 0 18px;
+margin: 0 0 0 18px;
+line-height:20px;
+}
+#bottom_menu li:first-child a {
+background-image: none;
+padding: 0px;
+margin: 0;
+}
+#bottom_menu li a:hover, #bottom_menu li.active a {
+color:#444;
+text-decoration: underline;
+}

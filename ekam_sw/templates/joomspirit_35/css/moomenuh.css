@@ -1,0 +1,148 @@
+#main_menu {
+clear:both;
+display:block;
+position:relative;
+z-index:100;
+list-style: none;
+padding:0 0 0 10px;
+margin:0;
+text-align:left;
+height:28px;
+/**	change	**/
+float:right;
+padding:0;
+}
+
+#main_menu .moduletable {
+margin:0;
+}
+
+#main_menu li {
+margin:0;
+padding:0;
+float:left;
+height:28px;
+position:relative;
+list-style : none;
+/**	change	**/
+}
+
+#main_menu li a, #main_menu li span.separator {
+display:block;
+float : none !important;
+float : left;
+position:relative;
+z-index:1000;
+text-decoration:none;
+/**	change	**/
+color:#dedede;
+text-transform: none;
+letter-spacing: 0.2em;
+font-weight:bold;
+line-height:18px;
+margin : 5px 0;
+font-size:100%;
+text-align:left;
+padding: 0 10px;
+border-left:1px solid #5D4F39;
+}
+
+#main_menu li:first-child a, #main_menu li:first-child span.separator {
+border-left: none;
+}
+
+#main_menu li li a, #main_menu li li span.separator {
+/**	change	**/
+color:#dedede;
+float:none;
+font-size:100%;
+height:auto;
+line-height: 14px;
+letter-spacing: 0;
+font-weight:normal;
+padding: 6px 8px 6px 10px;
+margin:0;
+text-transform:none;
+border-left:none;
+}
+
+#main_menu li a:hover, #main_menu li span.separator:hover,
+#main_menu li.sfhover a, #main_menu li.sfhover span.separator {
+}
+
+#main_menu li.active, #main_menu li.sfhover, #main_menu li:hover {
+background-color: #6b5c45;
+}
+
+#main_menu li li.active, #main_menu li li.sfhover, #main_menu li li:hover {
+background-color: transparent;
+}
+
+#main_menu li ul {
+width: 140px;
+position:absolute;
+z-index:99;
+left: -999em !important;
+clear:left;
+/**	change	**/
+margin-left:0;
+margin-top:0;
+background-color : #241711;
+padding:12px 0 8px 0;
+}
+
+#main_menu li li {
+width: 140px;
+height:auto;
+}
+
+#main_menu li:hover ul, #main_menu li li:hover ul, #main_menu li li li:hover ul,
+#main_menu li.sfhover ul, #main_menu li li.sfhover ul, #main_menu li li li.sfhover ul {
+left: 0 !important;
+}
+
+#main_menu li ul ul {
+margin: -4px 0 0 139px !important;
+/**	change	**/
+padding: 5px 0;
+}
+
+
+/** si est actif niveau 1 	**/
+#main_menu li.active a, #main_menu li.active span.separator {
+color: #ffffff;
+text-decoration:none;
+}
+
+/** si est actif niveau 2+ 	**/
+#main_menu li.active li.active a, #main_menu li.active li.active span.separator,
+#main_menu li.active li.active li.active a, #main_menu li.active li.active li.active span.separator,
+#main_menu li.active li.active li.active li.active a, #main_menu li.active li.active li.active li.active span.separator {
+color: #cbb287;
+text-decoration:none;
+}
+
+/** si survolé niveau 1 **/
+#main_menu li a:hover, #main_menu li span.separator:hover {
+color: #ffffff;
+text-decoration:none;
+}
+
+/** si survolé niveau 2+ **/
+#main_menu li li a:hover, #main_menu li li span.separator:hover,
+#main_menu li li li a:hover, #main_menu li li li span.separator:hover, #main_menu li li li li a:hover, #main_menu li li li li span.separator:hover,
+#main_menu li.active li a:hover, #main_menu li.active li span.separator:hover,
+#main_menu li.active li.active li a:hover, #main_menu li.active li.active li span.separator:hover, #main_menu li.active li.active li.active li a:hover, #main_menu li.active li.active li.active li span.separator:hover,
+#main_menu li.active li li a:hover, #main_menu li.active li li span.separator:hover {
+color: #cbb287;
+text-decoration:none;
+}
+
+
+/** si est enfant **/
+#main_menu li a, #main_menu li li a, #main_menu li li li a, #main_menu li li li li a, #main_menu li li li li li a,
+#main_menu li span.separator, #main_menu li li span.separator, #main_menu li li li span.separator, #main_menu li li li li span.separator, #main_menu li li li li li span.separator,
+#main_menu li.active li a, #main_menu li.active li.active li a, #main_menu li.active li.active li.active li a, #main_menu li.active li.active li.active li.active li a,
+#main_menu li.active li span.separator, #main_menu li.active li.active li span.separator, #main_menu li.active li.active li.active li span.separator, #main_menu li.active li.active li.active li.active li span.separator {
+color:#dedede;
+}

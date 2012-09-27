@@ -1,0 +1,515 @@
+/*
+*		JoomSpirit CSS file for typo
+*/
+body {
+font-family: Tahoma, helvetica neue, helvetica, sans-serif;
+color:#d1bca9;
+line-height: 1.3em;
+}
+
+p {
+margin: 0.4% 0;
+}
+
+strong, bold {
+font-weight:bold;
+}
+
+
+/**		LOGO		**/
+
+.logo-text {
+display:block;
+padding:20px 15px 18px 15px !important;
+color:#fff;
+font-family: georgia, times, verdana, sans-serif;
+text-transform: none;
+letter-spacing: 0px;
+font-weight:normal;
+font-size:32px;
+line-height:32px;
+}
+.logo-text span.slogan {
+font-family: arial, verdana, sans-serif;
+font-size:14px;
+line-height:15px;
+font-weight:normal;
+color:#bbb;
+margin-left:7px;
+margin-top:6px;
+}
+
+
+/**		TITLE		**/
+
+h1, h2, h3, h4 {
+text-decoration: none;
+text-transform:none;
+font-weight:normal;
+padding:8px 0 4px 0;
+}
+h1, .componentheading {
+display: block;
+font-size: 200%;
+font-weight:normal;
+line-height:22px;
+padding: 0px 10px 2px 0px;
+margin: 0px 4px 16px 0;
+letter-spacing:0px;
+color:#fff;
+}
+h1 a {
+color:#fff;
+text-decoration: none;
+}
+h1 a:hover {
+color:#fff;
+text-decoration: none;
+}
+h1 span, h1 a span, h1 a:hover span {
+color:#fff;
+}
+
+.blog > h1 {
+margin-bottom:20px;
+}
+
+h2 {
+font-size:130%;
+line-height:20px;
+padding:8px 0 4px 0;
+margin-bottom:8px;
+color:#fff;
+font-weight:normal;
+text-transform:none;
+}
+h2.contentheading {
+font-size:160%;
+padding:4px 8px;
+margin: 0 0 10px 0;
+border-top:1px solid #555;
+border-bottom: 1px solid #555;
+background: transparent url(../images/white-04.png) 0 0 repeat;
+}
+h2 a {
+color:#fff;
+text-decoration: none;
+}
+h2 a:hover {
+text-decoration: none;
+color:#fff;
+}
+
+h2.contentheading a {
+color:#fff;
+}
+
+h3 {
+font-size:105%;
+line-height:16px;
+font-weight:bold;
+text-transform:none;
+}
+h4 {
+font-size:110%;
+line-height:16px;
+font-weight:normal;
+text-transform:none;
+}
+h5 {
+font-size:100%;
+line-height:16px;
+font-weight:normal;
+text-transform:none;
+}
+
+/**		modules		**/
+
+.left h3, .right h3, .user1 h3, .user2 h3, .user3 h3, 
+.user4 h3, .user5 h3, .user6 h3, .user7 h3, .user8 h3, .user9 h3 {
+margin-bottom:8px;
+padding: 4px 0 9px 0;
+font-weight:normal;
+font-variant : small-caps ;
+letter-spacing:0px;
+font-size:130%;
+line-height:14px;
+color:#eee;
+border-bottom: 1px dotted #666;
+}
+
+.bg-user-footer-h3 {
+position:absolute;
+top:9px;
+left:0;
+height:2px;
+width:100%;
+background: transparent url(../images/underline-footer-h3.png) 0 50% repeat-x;
+z-index:-1;
+}
+
+.user7 h3, .user8 h3, .user9 h3 {
+border-bottom : none;
+background-color: #cab9a9;
+background-image: none;
+display: inline-block;
+padding-left: 8px;
+padding-right: 8px;
+color:#444;
+}
+
+.left h3 span, .right h3 span, .user1 h3 span, .user2 h3 span, .user3 h3 span, 
+.user4 h3 span, .user5 h3 span, .user6 h3 span, .user7 h3 span, .user8 h3 span, .user9 h3 span {
+}
+
+
+
+/**			LINK		**/
+a {
+color:#993366;
+text-decoration : none;
+}
+a:hover {
+color:#993366;
+text-decoration : underline;
+}
+a:active, a:focus {
+outline:none;
+}
+.link a, .link span.separator {
+display:inline-block;
+background: transparent url(../images/puce-link.png) 0 9px no-repeat;
+padding:2px 0 2px 14px;
+line-height:15px;
+text-decoration:none;
+}
+
+.link a:hover {
+text-decoration:underline;
+}
+
+.user7 a, .user8 a, .user9 a {
+color : #444 ;
+}
+
+.user7 .link a:hover, .user8 .link a:hover, .user9 .link a:hover {
+text-decoration:none;
+}
+
+
+li span.separator {
+cursor:default;
+}
+
+/*	Pathway	*/
+.breadcrumb a, .breadcrumb {
+color:#ddd;
+text-decoration:none;
+}
+.breadcrumb a:hover {
+color:#993366;
+text-decoration:none;
+}
+/*	List  */
+
+.item-page ul, .blog_more ul, ul.normal, ul.check, ul.arrow, ul.normal_green, ul.check_green, ul.arrow_green, ul.circle, ul.circle_red,
+ul.normal_red, ul.check_red, ul.arrow_red, ul.normal_white, ul.check_white, ul.arrow_white, ul.circle_white  {
+margin: 10px 0 16px 6px;
+padding-left:0;
+}
+.item-page ul li, .blog_more ul li, .normal li, .check li, .arrow li, .normal_red li, .check_red li, .arrow_red li, .circle li,
+.circle_red li, .normal_white li, .check_white li, .arrow_white li, .circle_white li  {
+background: url(../images/list_circle_white.png) 0 0px no-repeat;
+padding-left: 21px;
+list-style:none;
+margin:5px 0;
+}
+.item-page ul li:hover, .blog_more ul li:hover, .normal li:hover, .check li:hover, .arrow li:hover, .normal_red li:hover, .check_red li:hover, .arrow_red li:hover, .circle li:hover,
+.circle_red li:hover, .normal_white li:hover, .check_white li:hover, .arrow_white li:hover, .circle_white li:hover, ol li:hover  {
+color: #E7D2BD;
+cursor:default;
+}
+.item-page ul ul, ul.normal ul, ul.check ul, ul.arrow ul, ul.normal_red ul, ul.check_red ul, ul.arrow_red ul, ul.circle ul, 
+ul.circle_red ul, ul.normal_white ul, ul.check_white ul, ul.arrow_white ul, ul.circle_white ul {
+margin-left: 0px;
+margin-top:4px;
+padding-left:0;
+}
+.item-page ul li li, .normal li li, .check li li, .arrow li li, .normal_red li li, .check_red li li , .arrow_red li li , .circle li li, 
+.circle_red li li, .circle_white li li, .check_white li li, .arrow_white li li, .normal_white li li  {
+background: url(../images/list_circle_white.png) 0 0px no-repeat;
+padding-left: 18px;
+list-style:none;
+margin:5px 0;
+}
+
+.normal li {
+background: url(../images/list_normal_white.png) 0 0px no-repeat !important;
+}
+.check li {
+background: url(../images/list_check_white.png) 0 0px no-repeat !important;
+}
+.arrow li {
+background: url(../images/list_arrow_white.png) 0 0px no-repeat !important;
+}
+.circle li {
+background: url(../images/list_circle_white.png) 0 0px no-repeat !important;
+}
+.normal_red li {
+background: url(../images/list_normal_red.png) 0 0px no-repeat !important;
+}
+.arrow_red li {
+background: url(../images/list_arrow_red.png) 0 0px no-repeat !important;
+}
+.check_red li {
+background: url(../images/list_check_red.png) 0 0px no-repeat !important;
+}
+.circle_red li {
+background: url(../images/list_circle_red.png) 0 0px no-repeat !important;
+}
+
+ol {
+margin: 5px 0 0 6px;
+background-color: transparent;
+padding: 0 0 0 20px;
+}
+ol li {
+margin: 0;
+padding: 1px 5px;
+font-weight: normal;
+}
+
+ul li > h2, ul li > h3, ul li > h4 {
+margin-top : 0;
+padding-top:0;
+}
+
+ul.actions {
+text-align:right;
+float:right;
+margin:7px 5px 0px 10px;
+padding:0;
+}
+
+ul.actions li {
+background-image: none;
+margin: 0;
+padding:0;
+list-style:none;
+display:inline;
+}
+
+ul.actions a {
+text-decoration:none;
+}
+
+
+
+/*
+*	Quotation
+*/
+
+blockquote, cite {
+font-style:italic;
+font-size:115%;
+line-height:130%;
+word-spacing:2px;
+}
+
+blockquote.black, blockquote.red, blockquote.green, blockquote.pink, blockquote.white, blockquote.blue {
+margin: 10px 30px 10px 30px;
+padding: 10px 35px 10px 35px;
+border: none;
+background: url(../images/quote_black.png) 0 5px no-repeat;
+text-align:justify;
+font-style:italic;
+font-size:105%;
+}
+blockquote.red {
+background: url(../images/quote_red.png) 0 5px no-repeat;
+}
+blockquote.green {
+background: url(../images/quote_green.png) 0 5px no-repeat;
+}
+blockquote.pink {
+background: url(../images/quote_pink.png) 0 5px no-repeat;
+}
+blockquote.white {
+background: url(../images/quote_white.png) 0 5px no-repeat;
+}
+blockquote.blue {
+background: url(../images/quote_blue.png) 0 5px no-repeat;
+}
+blockquote.black p , blockquote.red p, blockquote.green p, blockquote.pink p, blockquote.white p, blockquote.blue p {
+margin: 0px -35px -10px 0px;
+padding: 0px 35px 10px 0px;
+background: url(../images/quote_black_end.png) 100%  no-repeat;
+color: #444;
+}
+blockquote.red p {
+background: url(../images/quote_red_end.png) 100%  no-repeat;
+color: #a93232;
+}
+blockquote.green p {
+background: url(../images/quote_green_end.png) 100%  no-repeat;
+color: #88a160;
+}
+blockquote.pink p {
+background: url(../images/quote_pink_end.png) 100%  no-repeat;
+color: #99cc66;
+}
+blockquote.white p {
+background: url(../images/quote_white_end.png) 100%  no-repeat;
+color: #eee;
+}
+blockquote.blue p {
+background: url(../images/quote_blue_end.png) 100%  no-repeat;
+color: #006699;
+}
+/**  DIV Info  **/
+.info {
+line-height:25px;
+padding-left:30px;
+border-top:1px solid #ddd;
+border-bottom:1px solid #ddd;
+background: #cab9a9 url(../images/logo_info.png) 4px 4px no-repeat;
+margin: 10px 0;
+color: #444;
+}
+/**	login	**/
+#modlgn-username, #modlgn-passwd {
+background: transparent url(../images/black-08.png) top left repeat !important;
+font-size:90%;
+width:150px;
+}
+#modlgn-username:hover, #modlgn-passwd:hover,
+#modlgn-username:focus, #modlgn-passwd:focus {
+background: transparent url(../images/black-10.png) top left repeat !important;
+}
+#submit_login {
+float:left;
+font-size:90%;
+padding:2px 6px;
+color: #ddd;
+}
+ul.icon_login {
+float:left;
+margin: 0 0 0 4px;
+}
+ul.icon_login li, ul.icon_login li {
+display:block;
+float:left;
+width:16px;
+height:16px;
+margin:4px 0 0 5px;
+}
+ul.icon_login li a:hover, ul.icon_login li#current a, ul.icon_login li.active a {
+border:none;
+}
+#form-login-remember {
+clear:both;
+padding-top:8px;
+}
+p#form-login-username {
+margin:0;
+}
+p#form-login-password {
+margin: 8px 0 8px 0;
+}
+#modlgn-remember {
+background-color:transparent;
+border:none;
+}
+/**	read more	**/
+.readmore a {
+background: transparent url(../images/white-07.png) top left repeat;
+border:1px solid #666;
+border-color:#555 #666 #666 #555 ;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-khtml-border-radius: 4px;
+border-radius: 4px;
+display:block;
+float:right;
+font-size:12px;
+font-weight:normal;
+margin-right:2px;
+margin-top:0px;
+padding:4px 21px 3px 14px;
+text-decoration:none;
+text-transform:none;
+font-style:italic;
+color:#999;
+}
+.readmore a:hover {
+background: transparent url(../images/white-10.png) top left repeat;
+border-color:#666 #555 #555 #666 ;
+color:#ccc;
+text-decoration:none;
+}
+
+/** 	TOOL TIPS		**/
+
+.tips {
+position:relative;
+margin-top:10px;
+z-index:999;
+}
+
+.tip {
+width:200px;
+background: transparent url(../images/bubble-middle.png) 0 0 repeat-y;
+cursor:pointer;
+}
+.tip-top {
+background: transparent url(../images/bubble-top.png) 0 0 no-repeat;
+height:7px;
+width:200px;
+}
+.tip-title {
+color:#e95e25;
+font-weight:bold;
+padding:0 10px;
+}
+.tip-text {
+color:#000;
+padding:10px 10px 10px 10px;
+}
+.tip-bottom {
+background: transparent url(../images/bubble-bottom.png) left bottom no-repeat;
+width:200px;
+height:8px;
+}
+
+
+/**		FOOTER		**/
+
+#footer {
+color : #444;
+background: #000;
+height: 100%;
+}
+
+
+/**	images	**/
+.shadow {
+margin: 4px;
+-moz-box-shadow : 2px 2px 4px #333;
+-webkit-box-shadow : 2px 2px 4px #333;
+box-shadow : 2px 2px 4px #333;
+border:2px solid #555;
+}
+
+a .shadow:hover {
+border-color : #777 ;
+}
+
+
+/**	font face	**/
+@font-face {
+font-family: 'JosefinSansStdLight';
+src: url('../font/josefinsansstd-light-webfont.eot');
+src: local('☺'), url('../font/josefinsansstd-light-webfont.woff') format('woff'), url('../font/josefinsansstd-light-webfont.ttf') format('truetype'), url('../font/josefinsansstd-light-webfont.svg#webfontugsqlauR') format('svg');
+font-weight: normal;
+font-style: normal;
+}

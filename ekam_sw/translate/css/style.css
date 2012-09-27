@@ -1,0 +1,129 @@
+/* 
+    Document   : style
+    Created on : 24/08/2012, 07:22:30 PM
+    Author     : GGIL
+    Description: TRANSLATE
+        Purpose of the stylesheet follows.
+*/
+
+h2, label {
+font-family: 'Skranji', cursive;
+}
+
+root { 
+    display: block;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+.m_m {
+    font-weight:bold;
+    color: #CC0E0E;   
+}
+
+form div {
+    height: 100px;
+    width: 500px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    background-color: #FFF;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: #EEE;  
+  width: 510px;
+  margin:0 auto;
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  /*background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#99CC99));*/
+  
+  /* Safari 5.1+, Chrome 10+ */
+  /*background: -webkit-radial-gradient(circle, #FFFFFF, #99CC99);*/
+  
+  /* Firefox 3.6+ */ 
+  /*background: -moz-radial-gradient(circle, #FFFFFF, #99CC99);*/
+  
+  /* IE 10 */ 
+  /*background: -ms-radial-gradient(circle, #FFFFFF, #99CC99);*/
+  
+  /* Opera cannot do radial gradients yet */
+    
+}
+
+div.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+div#top_buttons {
+    overflow: hidden;
+}
+
+div#bottom_buttons {
+    overflow: hidden;
+}
+
+div.button_container {
+    width: 30%;
+    height: 200px;
+    float: left;
+    position: relative;
+    border: 8px solid rgba(103, 180, 59, 0.3);
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+div.button_container p{
+    text-align: center;
+    height: 6em;
+    line-height: 6em;
+    position: absolute;
+    top: 50%;
+    margin-top: -3em;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+div.button_container p span{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    font-family: "Comic Sans MS";
+}
+
+div#logo {
+    width: 160px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.clearInput {
+    background: url('../../images/sprite_translation.png') no-repeat;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.clearInput:hover {
+    background: url('../../images/sprite_translation.png') no-repeat;
+    background-position: -100px 0px;
+}
+
+.translateInput {
+    background: url('../../images/sprite_translation.png') no-repeat;
+    background-position: 0px -50px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.translateInput:hover {
+    background: url('../../images/sprite_translation.png') no-repeat;
+    background-position: -100px -50px;
+}

@@ -1,0 +1,21 @@
+/*****************************************
+		SITE  IE7-
+******************************************/
+
+.pollstableborder tr .sectiontableentry1, .pollstableborder tr .sectiontableentry2,
+.categories-list dd, .categories-list dt, ul.pagenav li,
+span.content_vote input, span.content_rating img , .pagination li {
+display:inline;
+zoom:1;
+}
+
+
+/**		contact form	**/
+
+.contact-form dt {
+clear : both;
+}
+
+.contact-form dd {
+width:100%;
+}

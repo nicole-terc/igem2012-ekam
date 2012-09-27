@@ -1,0 +1,26 @@
+@media (max-width: 800px) { 
+
+#top-site .wrapper, #header-site .wrapper, #middle-site .wrapper, .content-footer .wrapper {
+width : 96% !important;
+}
+
+#image > div {
+overflow:hidden;
+}
+
+/* gestion des mots longs */ 
+textarea, table, td, th, code, pre, samp { 
+word-wrap: break-word; /* csure force */ 
+}
+code, pre, samp { 
+white-space: pre-line; /* passage  la ligne spcifique pour les lments  chsse fixe */ 
+}
+ 
+}
+
+@media screen and (max-width:800px) and (orientation: landscape) { 
+body { 
+-webkit-text-size-adjust: 70%; 
+} 
+
+}

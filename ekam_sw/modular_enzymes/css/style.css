@@ -1,0 +1,184 @@
+/* 
+    Document   : style
+    Created on : 17/09/2012, 12:20:15 AM
+    Author     : GGIL
+    Description: MODULAR ENZYMES STYLE
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #888; 
+}
+
+h2, h3, label, p, div {
+    font-family: 'Skranji', cursive;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+#input_container {
+    width:510px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+body{
+    font-size: 12pt;
+}
+
+p {
+    margin: 2px 0;
+}
+
+div.remove_sequence {
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -500px 0px;
+    float:left;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+div.remove_sequence:hover {
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -400px 0px;
+}
+
+div.add_sequence{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -100px 0px;
+    float:left;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+div.add_sequence:hover{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: 0px 0px;
+}
+
+.input_go {
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -300px 0px;
+    width: 100px;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+    border: none;
+}
+
+.input_go:hover{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -200px 0px;
+}
+
+.seq2syn{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -340px -225px;
+    float:left;
+    width: 220px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+.seq2syn:hover{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -40px -225px;
+}
+
+.complete_seq{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -340px -75px;
+    float:right;
+    width: 220px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+.complete_seq:hover{
+    background: url('images/sprite_modular.png') no-repeat;
+    background-position: -40px -75px;
+}
+
+div#more_input {
+    
+}
+
+div.sequence_form{
+    position: relative;
+}
+
+div.submit_container{
+    
+}
+
+#output_container{
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+}
+
+#opcion2 {
+    overflow: hidden;
+}
+
+.enzyme_out {
+    height: 30px;
+    width: 90px;
+    background-color: #6D76A1;
+    border: 1px solid black;
+    border-radius: 7px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sequence_out {
+    height: 30px;
+    width: 150px;
+    background-color: #C3CDDC;
+    border: 1px solid black;
+    border-radius: 7px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.enzyme_out p{
+    text-align: center;
+    color: #DDD;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.sequence_out p{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    color: black;
+}
+
+#output_buttons{
+    overflow: hidden;
+    width: 730px;
+    margin: 0 auto;
+}
